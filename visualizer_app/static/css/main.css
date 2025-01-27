@@ -1,0 +1,14 @@
+/* Google Font: indie flower - regular */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Modify window background color */
+body {
+  background-color: #d0f5f5;
+}
+
+.indie-flower-text {
+  font-family: "Indie Flower", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+}

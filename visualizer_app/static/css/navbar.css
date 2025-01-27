@@ -1,0 +1,11 @@
+/* Modify navbar background color */
+.navbar-custom {
+  background-color: #e3f9f9;
+  width: 100%;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #b5d5d5;
+}

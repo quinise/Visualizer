@@ -1,0 +1,13 @@
+/* Google Font:  Barlow regular -  italic */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
+
+.footer {
+  background-color: #e3f9f9;
+  width: 100%;
+}
+
+.footer-text {
+  font-family: "Barlow", serif;
+  font-weight: 400;
+  font-style: italic;
+}

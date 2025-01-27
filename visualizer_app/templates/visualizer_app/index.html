@@ -1,36 +1,19 @@
+{% load static %}
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- {% extends "../" %} -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% block title %}Visualizer{% endblock %}</title>
-    {% load bootstrap5 %}
-    {% bootstrap_css %}
-    {% bootstrap_javascript %}
+    {% load bootstrap5 %} {% bootstrap_css %} {% bootstrap_javascript %}
+    <link rel="stylesheet" , href="{% static 'css/main.css' %}" />
+    <link rel="stylesheet" , href="{% static 'css/navbar.css' %}" />
+    <link rel="stylesheet" , href="{% static 'css/footer.css' %}" />
   </head>
-  <style>
-    /* Modify window background color */
-    :root {
-      --bs-body-bg: #d0f5f5;
-    }
-
-    /* Modify navbar background color */
-    .navbar-custom {
-      background-color: #e3f9f9;
-      width: 100%;
-    }
-
-     /* Modify brand and text color */
-    .navbar-custom .navbar-brand,
-    .navbar-custom .navbar-text {
-      color: #b5d5d5;
-    }
-  </style>
   <body>
-    <div class="container">
-      
-      
-      {% block content %}
-      {% endblock %}
-    </div>
+    {% block content %} {% include
+    "../visualizer_app/navbar.html"%}{%include"../visualizer_app/footer.html" %}
+    {%endblock %}
   </body>
 </html>
