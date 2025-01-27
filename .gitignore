@@ -1,2 +1,4 @@
-# Ignore .env file
 *.env
+db.sqlite3
+.DS_Store
+.vscode/
