@@ -1,0 +1,24 @@
+.flower-table .table-bordered tbody tr {
+  border: 3px solid #b5d5d5;
+}
+
+.flower-table .table-bordered tbody tr td {
+  border: 3px solid #b5d5d5;
+}
+
+.flower-table .table-bordered tbody tr {
+  border: 3px solid #b5d5d5;
+}
+
+.img-thumbnail {
+  border: 0;
+  background-color:transparent
+}
+
+.white-rose-right:hover {
+  transform: rotate(45deg);
+}
+
+.white-rose-left:hover {
+  transform: rotate(-45deg);
+}
