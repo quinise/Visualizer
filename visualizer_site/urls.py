@@ -21,3 +21,4 @@ urlpatterns = [
     path('visualizer_app/', include('visualizer_app.urls')),
     path('admin/', admin.site.urls),
 ]
+
