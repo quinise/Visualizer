@@ -1,12 +1,16 @@
-.flower-table .table-bordered tbody tr {
+#flowerTable {
+  transition: width 0.5s ease, height 0.5s ease; /* Add transition for smooth effect */
+}
+
+#flowerTable .table-bordered tbody tr {
   border: 3px solid #b5d5d5;
 }
 
-.flower-table .table-bordered tbody tr td {
+#flowerTable .table-bordered tbody tr td {
   border: 3px solid #b5d5d5;
 }
 
-.flower-table .table-bordered tbody tr {
+#flowerTable .table-bordered tbody tr {
   border: 3px solid #b5d5d5;
 }
 
@@ -21,4 +25,18 @@
 
 .white-rose-left:hover {
   transform: rotate(-45deg);
+}
+
+.shrunk {
+  width: 30%;
+  height: 35%;
+  /* Overlay */
+  position: fixed; /* Sit on top of the page content */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
